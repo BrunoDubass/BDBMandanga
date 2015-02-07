@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146EF50C1A81D2E20038192E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146EF50B1A81D2E20038192E /* main.m */; };
+		146EF50F1A81D2E20038192E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146EF50E1A81D2E20038192E /* AppDelegate.m */; };
+		146EF5111A81D2E20038192E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5101A81D2E20038192E /* Images.xcassets */; };
+		146EF5141A81D2E20038192E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5121A81D2E20038192E /* LaunchScreen.xib */; };
+		146EF5201A81D2E30038192E /* BDBMandangaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146EF51F1A81D2E30038192E /* BDBMandangaTests.m */; };
+		146EF5451A81D34E0038192E /* Glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF52B1A81D34E0038192E /* Glass.wav */; };
+		146EF5461A81D34E0038192E /* MamasitaMale.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF52C1A81D34E0038192E /* MamasitaMale.wav */; };
+		146EF5471A81D34E0038192E /* Pedo1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF52D1A81D34E0038192E /* Pedo1.wav */; };
+		146EF5481A81D34E0038192E /* Pedo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF52E1A81D34E0038192E /* Pedo2.wav */; };
+		146EF5491A81D34E0038192E /* Punch1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF52F1A81D34E0038192E /* Punch1.wav */; };
+		146EF54A1A81D34E0038192E /* Punch2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5301A81D34E0038192E /* Punch2.wav */; };
+		146EF54B1A81D34E0038192E /* Punch3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5311A81D34E0038192E /* Punch3.wav */; };
+		146EF54C1A81D34E0038192E /* Punch4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5321A81D34E0038192E /* Punch4.wav */; };
+		146EF54D1A81D34E0038192E /* Punch5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5331A81D34E0038192E /* Punch5.wav */; };
+		146EF54E1A81D34E0038192E /* Punch6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5341A81D34E0038192E /* Punch6.wav */; };
+		146EF54F1A81D34E0038192E /* Punch7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5351A81D34E0038192E /* Punch7.wav */; };
+		146EF5501A81D34E0038192E /* Punch8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5361A81D34E0038192E /* Punch8.wav */; };
+		146EF5511A81D34E0038192E /* Punch9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5371A81D34E0038192E /* Punch9.wav */; };
+		146EF5521A81D34E0038192E /* Risa1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5381A81D34E0038192E /* Risa1.wav */; };
+		146EF5531A81D34E0038192E /* Risa2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5391A81D34E0038192E /* Risa2.wav */; };
+		146EF5541A81D34E0038192E /* Risa3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF53A1A81D34E0038192E /* Risa3.wav */; };
+		146EF5551A81D34E0038192E /* Risa4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF53B1A81D34E0038192E /* Risa4.wav */; };
+		146EF5561A81D34E0038192E /* Risa5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF53C1A81D34E0038192E /* Risa5.wav */; };
+		146EF5571A81D34E0038192E /* Speak1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF53D1A81D34E0038192E /* Speak1.wav */; };
+		146EF5581A81D34E0038192E /* Speak2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF53E1A81D34E0038192E /* Speak2.wav */; };
+		146EF5591A81D34E0038192E /* Uhhh1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF53F1A81D34E0038192E /* Uhhh1.wav */; };
+		146EF55A1A81D34E0038192E /* Uhhh2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5401A81D34E0038192E /* Uhhh2.wav */; };
+		146EF55B1A81D34E0038192E /* Uhhh3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5411A81D34E0038192E /* Uhhh3.wav */; };
+		146EF55C1A81D34E0038192E /* Uhhh4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5421A81D34E0038192E /* Uhhh4.wav */; };
+		146EF55D1A81D34E0038192E /* Uhhh5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5431A81D34E0038192E /* Uhhh5.wav */; };
+		146EF55E1A81D34E0038192E /* UhhhMale.wav in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5441A81D34E0038192E /* UhhhMale.wav */; };
+		146EF5631A81D3720038192E /* brokenglass.png in Resources */ = {isa = PBXBuildFile; fileRef = 146EF55F1A81D3720038192E /* brokenglass.png */; };
+		146EF5641A81D3720038192E /* gemela.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5601A81D3720038192E /* gemela.jpg */; };
+		146EF5651A81D3720038192E /* mano.png in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5611A81D3720038192E /* mano.png */; };
+		146EF5661A81D3720038192E /* rojez.png in Resources */ = {isa = PBXBuildFile; fileRef = 146EF5621A81D3720038192E /* rojez.png */; };
+		146EF56D1A81D3FE0038192E /* BDBMandangaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146EF5691A81D3FE0038192E /* BDBMandangaViewController.m */; };
+		146EF56E1A81D3FE0038192E /* BDBMandangaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146EF56A1A81D3FE0038192E /* BDBMandangaViewController.xib */; };
+		146EF56F1A81D3FE0038192E /* BDBSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 146EF56C1A81D3FE0038192E /* BDBSound.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		146EF51A1A81D2E30038192E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146EF4FE1A81D2E20038192E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 146EF5051A81D2E20038192E;
+			remoteInfo = BDBMandanga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		146EF5061A81D2E20038192E /* BDBMandanga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDBMandanga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		146EF50A1A81D2E20038192E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146EF50B1A81D2E20038192E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		146EF50D1A81D2E20038192E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		146EF50E1A81D2E20038192E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		146EF5101A81D2E20038192E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		146EF5131A81D2E20038192E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		146EF5191A81D2E30038192E /* BDBMandangaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDBMandangaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		146EF51E1A81D2E30038192E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146EF51F1A81D2E30038192E /* BDBMandangaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDBMandangaTests.m; sourceTree = "<group>"; };
+		146EF52B1A81D34E0038192E /* Glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Glass.wav; sourceTree = "<group>"; };
+		146EF52C1A81D34E0038192E /* MamasitaMale.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MamasitaMale.wav; sourceTree = "<group>"; };
+		146EF52D1A81D34E0038192E /* Pedo1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pedo1.wav; sourceTree = "<group>"; };
+		146EF52E1A81D34E0038192E /* Pedo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pedo2.wav; sourceTree = "<group>"; };
+		146EF52F1A81D34E0038192E /* Punch1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Punch1.wav; sourceTree = "<group>"; };
+		146EF5301A81D34E0038192E /* Punch2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Punch2.wav; sourceTree = "<group>"; };
+		146EF5311A81D34E0038192E /* Punch3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Punch3.wav; sourceTree = "<group>"; };
+		146EF5321A81D34E0038192E /* Punch4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Punch4.wav; sourceTree = "<group>"; };
+		146EF5331A81D34E0038192E /* Punch5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Punch5.wav; sourceTree = "<group>"; };
+		146EF5341A81D34E0038192E /* Punch6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Punch6.wav; sourceTree = "<group>"; };
+		146EF5351A81D34E0038192E /* Punch7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Punch7.wav; sourceTree = "<group>"; };
+		146EF5361A81D34E0038192E /* Punch8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Punch8.wav; sourceTree = "<group>"; };
+		146EF5371A81D34E0038192E /* Punch9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Punch9.wav; sourceTree = "<group>"; };
+		146EF5381A81D34E0038192E /* Risa1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Risa1.wav; sourceTree = "<group>"; };
+		146EF5391A81D34E0038192E /* Risa2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Risa2.wav; sourceTree = "<group>"; };
+		146EF53A1A81D34E0038192E /* Risa3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Risa3.wav; sourceTree = "<group>"; };
+		146EF53B1A81D34E0038192E /* Risa4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Risa4.wav; sourceTree = "<group>"; };
+		146EF53C1A81D34E0038192E /* Risa5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Risa5.wav; sourceTree = "<group>"; };
+		146EF53D1A81D34E0038192E /* Speak1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Speak1.wav; sourceTree = "<group>"; };
+		146EF53E1A81D34E0038192E /* Speak2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Speak2.wav; sourceTree = "<group>"; };
+		146EF53F1A81D34E0038192E /* Uhhh1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Uhhh1.wav; sourceTree = "<group>"; };
+		146EF5401A81D34E0038192E /* Uhhh2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Uhhh2.wav; sourceTree = "<group>"; };
+		146EF5411A81D34E0038192E /* Uhhh3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Uhhh3.wav; sourceTree = "<group>"; };
+		146EF5421A81D34E0038192E /* Uhhh4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Uhhh4.wav; sourceTree = "<group>"; };
+		146EF5431A81D34E0038192E /* Uhhh5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Uhhh5.wav; sourceTree = "<group>"; };
+		146EF5441A81D34E0038192E /* UhhhMale.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = UhhhMale.wav; sourceTree = "<group>"; };
+		146EF55F1A81D3720038192E /* brokenglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brokenglass.png; sourceTree = "<group>"; };
+		146EF5601A81D3720038192E /* gemela.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gemela.jpg; sourceTree = "<group>"; };
+		146EF5611A81D3720038192E /* mano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mano.png; sourceTree = "<group>"; };
+		146EF5621A81D3720038192E /* rojez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rojez.png; sourceTree = "<group>"; };
+		146EF5681A81D3FE0038192E /* BDBMandangaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBMandangaViewController.h; sourceTree = "<group>"; };
+		146EF5691A81D3FE0038192E /* BDBMandangaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBMandangaViewController.m; sourceTree = "<group>"; };
+		146EF56A1A81D3FE0038192E /* BDBMandangaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDBMandangaViewController.xib; sourceTree = "<group>"; };
+		146EF56B1A81D3FE0038192E /* BDBSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBSound.h; sourceTree = "<group>"; };
+		146EF56C1A81D3FE0038192E /* BDBSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBSound.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146EF5031A81D2E20038192E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146EF5161A81D2E30038192E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146EF4FD1A81D2E20038192E = {
+			isa = PBXGroup;
+			children = (
+				146EF5081A81D2E20038192E /* BDBMandanga */,
+				146EF51C1A81D2E30038192E /* BDBMandangaTests */,
+				146EF5071A81D2E20038192E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		146EF5071A81D2E20038192E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146EF5061A81D2E20038192E /* BDBMandanga.app */,
+				146EF5191A81D2E30038192E /* BDBMandangaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		146EF5081A81D2E20038192E /* BDBMandanga */ = {
+			isa = PBXGroup;
+			children = (
+				146EF5291A81D3380038192E /* Resources */,
+				146EF50D1A81D2E20038192E /* AppDelegate.h */,
+				146EF50E1A81D2E20038192E /* AppDelegate.m */,
+				146EF5101A81D2E20038192E /* Images.xcassets */,
+				146EF5121A81D2E20038192E /* LaunchScreen.xib */,
+				146EF5671A81D3D90038192E /* Controllers */,
+				146EF5091A81D2E20038192E /* Supporting Files */,
+			);
+			path = BDBMandanga;
+			sourceTree = "<group>";
+		};
+		146EF5091A81D2E20038192E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				146EF50A1A81D2E20038192E /* Info.plist */,
+				146EF50B1A81D2E20038192E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		146EF51C1A81D2E30038192E /* BDBMandangaTests */ = {
+			isa = PBXGroup;
+			children = (
+				146EF51F1A81D2E30038192E /* BDBMandangaTests.m */,
+				146EF51D1A81D2E30038192E /* Supporting Files */,
+			);
+			path = BDBMandangaTests;
+			sourceTree = "<group>";
+		};
+		146EF51D1A81D2E30038192E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				146EF51E1A81D2E30038192E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		146EF5291A81D3380038192E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				146EF55F1A81D3720038192E /* brokenglass.png */,
+				146EF5601A81D3720038192E /* gemela.jpg */,
+				146EF5611A81D3720038192E /* mano.png */,
+				146EF5621A81D3720038192E /* rojez.png */,
+				146EF52A1A81D34E0038192E /* AUDIO */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		146EF52A1A81D34E0038192E /* AUDIO */ = {
+			isa = PBXGroup;
+			children = (
+				146EF52B1A81D34E0038192E /* Glass.wav */,
+				146EF52C1A81D34E0038192E /* MamasitaMale.wav */,
+				146EF52D1A81D34E0038192E /* Pedo1.wav */,
+				146EF52E1A81D34E0038192E /* Pedo2.wav */,
+				146EF52F1A81D34E0038192E /* Punch1.wav */,
+				146EF5301A81D34E0038192E /* Punch2.wav */,
+				146EF5311A81D34E0038192E /* Punch3.wav */,
+				146EF5321A81D34E0038192E /* Punch4.wav */,
+				146EF5331A81D34E0038192E /* Punch5.wav */,
+				146EF5341A81D34E0038192E /* Punch6.wav */,
+				146EF5351A81D34E0038192E /* Punch7.wav */,
+				146EF5361A81D34E0038192E /* Punch8.wav */,
+				146EF5371A81D34E0038192E /* Punch9.wav */,
+				146EF5381A81D34E0038192E /* Risa1.wav */,
+				146EF5391A81D34E0038192E /* Risa2.wav */,
+				146EF53A1A81D34E0038192E /* Risa3.wav */,
+				146EF53B1A81D34E0038192E /* Risa4.wav */,
+				146EF53C1A81D34E0038192E /* Risa5.wav */,
+				146EF53D1A81D34E0038192E /* Speak1.wav */,
+				146EF53E1A81D34E0038192E /* Speak2.wav */,
+				146EF53F1A81D34E0038192E /* Uhhh1.wav */,
+				146EF5401A81D34E0038192E /* Uhhh2.wav */,
+				146EF5411A81D34E0038192E /* Uhhh3.wav */,
+				146EF5421A81D34E0038192E /* Uhhh4.wav */,
+				146EF5431A81D34E0038192E /* Uhhh5.wav */,
+				146EF5441A81D34E0038192E /* UhhhMale.wav */,
+			);
+			path = AUDIO;
+			sourceTree = "<group>";
+		};
+		146EF5671A81D3D90038192E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				146EF5681A81D3FE0038192E /* BDBMandangaViewController.h */,
+				146EF5691A81D3FE0038192E /* BDBMandangaViewController.m */,
+				146EF56A1A81D3FE0038192E /* BDBMandangaViewController.xib */,
+				146EF56B1A81D3FE0038192E /* BDBSound.h */,
+				146EF56C1A81D3FE0038192E /* BDBSound.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		146EF5051A81D2E20038192E /* BDBMandanga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146EF5231A81D2E30038192E /* Build configuration list for PBXNativeTarget "BDBMandanga" */;
+			buildPhases = (
+				146EF5021A81D2E20038192E /* Sources */,
+				146EF5031A81D2E20038192E /* Frameworks */,
+				146EF5041A81D2E20038192E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDBMandanga;
+			productName = BDBMandanga;
+			productReference = 146EF5061A81D2E20038192E /* BDBMandanga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		146EF5181A81D2E30038192E /* BDBMandangaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146EF5261A81D2E30038192E /* Build configuration list for PBXNativeTarget "BDBMandangaTests" */;
+			buildPhases = (
+				146EF5151A81D2E30038192E /* Sources */,
+				146EF5161A81D2E30038192E /* Frameworks */,
+				146EF5171A81D2E30038192E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				146EF51B1A81D2E30038192E /* PBXTargetDependency */,
+			);
+			name = BDBMandangaTests;
+			productName = BDBMandangaTests;
+			productReference = 146EF5191A81D2E30038192E /* BDBMandangaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146EF4FE1A81D2E20038192E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = brunodominguez;
+				TargetAttributes = {
+					146EF5051A81D2E20038192E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					146EF5181A81D2E30038192E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 146EF5051A81D2E20038192E;
+					};
+				};
+			};
+			buildConfigurationList = 146EF5011A81D2E20038192E /* Build configuration list for PBXProject "BDBMandanga" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 146EF4FD1A81D2E20038192E;
+			productRefGroup = 146EF5071A81D2E20038192E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				146EF5051A81D2E20038192E /* BDBMandanga */,
+				146EF5181A81D2E30038192E /* BDBMandangaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		146EF5041A81D2E20038192E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146EF5461A81D34E0038192E /* MamasitaMale.wav in Resources */,
+				146EF5631A81D3720038192E /* brokenglass.png in Resources */,
+				146EF5141A81D2E20038192E /* LaunchScreen.xib in Resources */,
+				146EF54E1A81D34E0038192E /* Punch6.wav in Resources */,
+				146EF5451A81D34E0038192E /* Glass.wav in Resources */,
+				146EF55A1A81D34E0038192E /* Uhhh2.wav in Resources */,
+				146EF5661A81D3720038192E /* rojez.png in Resources */,
+				146EF5481A81D34E0038192E /* Pedo2.wav in Resources */,
+				146EF5561A81D34E0038192E /* Risa5.wav in Resources */,
+				146EF5521A81D34E0038192E /* Risa1.wav in Resources */,
+				146EF5111A81D2E20038192E /* Images.xcassets in Resources */,
+				146EF55B1A81D34E0038192E /* Uhhh3.wav in Resources */,
+				146EF5501A81D34E0038192E /* Punch8.wav in Resources */,
+				146EF5641A81D3720038192E /* gemela.jpg in Resources */,
+				146EF5591A81D34E0038192E /* Uhhh1.wav in Resources */,
+				146EF54F1A81D34E0038192E /* Punch7.wav in Resources */,
+				146EF55D1A81D34E0038192E /* Uhhh5.wav in Resources */,
+				146EF54B1A81D34E0038192E /* Punch3.wav in Resources */,
+				146EF54C1A81D34E0038192E /* Punch4.wav in Resources */,
+				146EF5531A81D34E0038192E /* Risa2.wav in Resources */,
+				146EF54D1A81D34E0038192E /* Punch5.wav in Resources */,
+				146EF5511A81D34E0038192E /* Punch9.wav in Resources */,
+				146EF5471A81D34E0038192E /* Pedo1.wav in Resources */,
+				146EF5581A81D34E0038192E /* Speak2.wav in Resources */,
+				146EF55C1A81D34E0038192E /* Uhhh4.wav in Resources */,
+				146EF5551A81D34E0038192E /* Risa4.wav in Resources */,
+				146EF54A1A81D34E0038192E /* Punch2.wav in Resources */,
+				146EF55E1A81D34E0038192E /* UhhhMale.wav in Resources */,
+				146EF5651A81D3720038192E /* mano.png in Resources */,
+				146EF5491A81D34E0038192E /* Punch1.wav in Resources */,
+				146EF56E1A81D3FE0038192E /* BDBMandangaViewController.xib in Resources */,
+				146EF5541A81D34E0038192E /* Risa3.wav in Resources */,
+				146EF5571A81D34E0038192E /* Speak1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146EF5171A81D2E30038192E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146EF5021A81D2E20038192E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146EF50F1A81D2E20038192E /* AppDelegate.m in Sources */,
+				146EF50C1A81D2E20038192E /* main.m in Sources */,
+				146EF56F1A81D3FE0038192E /* BDBSound.m in Sources */,
+				146EF56D1A81D3FE0038192E /* BDBMandangaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146EF5151A81D2E30038192E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146EF5201A81D2E30038192E /* BDBMandangaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		146EF51B1A81D2E30038192E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 146EF5051A81D2E20038192E /* BDBMandanga */;
+			targetProxy = 146EF51A1A81D2E30038192E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		146EF5121A81D2E20038192E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146EF5131A81D2E20038192E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		146EF5211A81D2E30038192E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		146EF5221A81D2E30038192E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		146EF5241A81D2E30038192E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BDBMandanga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		146EF5251A81D2E30038192E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BDBMandanga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		146EF5271A81D2E30038192E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BDBMandangaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDBMandanga.app/BDBMandanga";
+			};
+			name = Debug;
+		};
+		146EF5281A81D2E30038192E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BDBMandangaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDBMandanga.app/BDBMandanga";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146EF5011A81D2E20038192E /* Build configuration list for PBXProject "BDBMandanga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146EF5211A81D2E30038192E /* Debug */,
+				146EF5221A81D2E30038192E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146EF5231A81D2E30038192E /* Build configuration list for PBXNativeTarget "BDBMandanga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146EF5241A81D2E30038192E /* Debug */,
+				146EF5251A81D2E30038192E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		146EF5261A81D2E30038192E /* Build configuration list for PBXNativeTarget "BDBMandangaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146EF5271A81D2E30038192E /* Debug */,
+				146EF5281A81D2E30038192E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 146EF4FE1A81D2E20038192E /* Project object */;
+}
